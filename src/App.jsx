@@ -5,9 +5,9 @@ import Contact from './Contact';
 import Work  from './Work';
 import Footer from './Footer';
 function App(){
-      const [homeOnOff, sethomeOnOff] = useState(false);
+      const [homeOnOff, sethomeOnOff] = useState(true);
       const [contactOnOff, setcontactOnOff] = useState(false);
-      const [workOnOff, setworkOnOff] = useState(true);
+      const [workOnOff, setworkOnOff] = useState(false);
 
       function homeDekhao(){
         sethomeOnOff(true);
