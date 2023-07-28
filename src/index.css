@@ -7,6 +7,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  
 }
 body{
   background-color: rgba(245, 245, 245,0.8);
@@ -1144,7 +1146,7 @@ padding: 10px;
   scale: 1.1;
   position: relative;
   top: 5px;
-  transition: 0.4s ease-in-out;
+  transition: 0.2s ease-in-out;
   opacity: 85%;
 }
 .project-img-two img:hover{
@@ -1273,13 +1275,170 @@ padding: 10px;
 }
 /* ////////////////////////////////////////////drop-down/////////////////////////////// */
 .drop-down{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   max-width: 1200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 100%;
+}
+.drop-down span{
+  /* border: 1px solid red; */
+  border: 1px solid rgb(226, 226, 226);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.drop-down span svg{
+  animation: updown .8s ease-in-out infinite alternate-reverse;
+  position: relative;
+  top: 5px;
+}
+.drop-up{
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.drop-up span{
+  /* border: 1px solid red; */
+  border: 1px solid rgb(226, 226, 226);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.drop-up span svg{
+  animation: updown .8s ease-in-out infinite alternate-reverse;
+  position: relative;
+  top: 5px;
+}
+
+@keyframes updown{
+  
+  0%{
+    top: 0;
+    bottom: 0;
+  }
+
+  100%{
+    bottom: 20px;
+  }
+}
+.work-main-sec-div{
+  /* border: 1px solid red; */
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+  padding: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ 
+}
+
+
+.work-hidden{
+  animation: bo 3s ease-in-out alternate;
+ 
+}
+@keyframes bo{
+  0%{
+    opacity: 0;
+   
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+    
+  }
+}
+.work-hidden-one{
+  animation: bor 2s ease-in-out alternate;
+
+}
+@keyframes bor{
+  0%{
+    opacity: 0;
+   
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+    
+  }
+}
+.work-hidden-two{
+  animation: boro 1s ease-in-out alternate;
+}
+@keyframes boro{
+  0%{
+    opacity: 0;
+   
+  }
+  
+
+  100%{
+    opacity: 1;
+    
+  }
+}
+/* ///////////stars////////// */
+.rating {
+  display: inline-block;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  float: right;
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.rating label:before {
+  content: '\2605';
+  font-size: 30px;
+}
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+  color: #FF9954;
+  transition: color 0.3s;
+}
+
+
+
+.starss{
+flex-direction: column;
+padding-bottom: 7px;
+letter-spacing: 4px;
+font-size: 11px;
+
+text-transform: uppercase;
 }
 
 /* ///////////////////////////////////////////////media korchi////////////////////////////////////////////////// */
@@ -1457,6 +1616,9 @@ padding: 10px;
   bottom: 40px;
 }
 .work-main{
+  padding: 20px;
+}
+.work-main-sec-div{
   padding: 20px;
 }
 

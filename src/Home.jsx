@@ -6,15 +6,16 @@ import Thirdrow from './Thirdrow';
 
 
 function Home() {
+ 
   return (
     <>
     <div className='home-box'>
         <div className='home-main'>
             <ProfileSection/>
-            <Traintext/>
+             <Traintext/>
             <Secondrow/>
             <Thirdrow/>
-
+          
         </div>
     </div>
     </>
