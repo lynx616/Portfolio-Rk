@@ -4,7 +4,7 @@ function RowTwo() {
   return (
     <>
        
-        <div className='title-box'>
+        <div className='title-box title-two'>
     <a href='https://github.com/lynx616/9bestseries' target='_blank'>
     <div className='project-card'>
       <div className='project-img-two'>

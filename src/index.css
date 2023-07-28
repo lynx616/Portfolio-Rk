@@ -903,7 +903,15 @@ left: 8px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* margin: 10px; */
+  animation: akakakak 1s ease-in-out alternate;
+}
+@keyframes akakakak{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 .project-title{
   border: 1px solid rgb(226, 226, 226);
@@ -919,26 +927,23 @@ left: 8px;
   margin-bottom: 15px;
 }
 .project-title h1{
-  letter-spacing: 1.5px;
-  /* border: 1px solid black;
-  border-style: dashed; */
+  
+
   display: flex;
   justify-content: center;
   align-items: center;
     width: 100%;
     height: 100%;
-    /* border-radius: 5px; */
-  /* font-size: 1.4rem; */
-  /* font-family: 'Parisienne', cursive; */
+ 
   transition: .2s ease-in-out;
   padding-bottom: 7px;
     letter-spacing: 4px;
-    font-size: 14px;
-    /* padding-right: 15px; */
+    font-size: 16px;
+  
     text-transform: uppercase;
 }
 .project-title h1:hover{
-  letter-spacing: 2.5px;
+  letter-spacing: 5.5px;
 }
 .project-card{
   /* border: 1px solid red; */
@@ -995,7 +1000,18 @@ left: 8px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* margin: 10px; */
+  animation: akakakak 2s ease-in-out alternate;
+}
+@keyframes akakakak{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity:0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 .secc-card-one{
   width: 100%;
@@ -1011,6 +1027,36 @@ a{
 }
 
 /* ////////////////project card design///////////////////////////////////// */
+.proj-card-one{
+  animation: akakakak 3s ease-in-out alternate;
+}
+@keyframes akakakak{
+  0%{
+    opacity: 0;
+  }
+  66%{
+    opacity:0;
+  }
+  100%{
+    opacity: 1;
+  }
+
+}
+.twooo{
+
+ animation: akakaka 4s ease-in-out alternate;
+}
+@keyframes akakaka{
+  0%{
+    opacity: 0;
+  }
+  70%{
+    opacity:0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 .project-img-one{
   /* border-bottom: 1px solid rgb(226, 226, 226); */
   width: 100%;
@@ -1165,6 +1211,7 @@ padding: 10px;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
+    animation: akakak 4s ease-in-out alternate;
 }
 .row-one-div{
   /* border: 1px solid red; */
@@ -1174,8 +1221,33 @@ padding: 10px;
     width: 100%;
     height: 100%;
    
-    /* overflow: hidden; */
-}
+   
+  }
+  @keyframes akakak{
+    0%{
+      opacity: 0;
+    }
+    88%{
+      opacity:0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  .title-two{
+    animation: akaka 5s ease-in-out alternate;
+  }
+  @keyframes akaka{
+    0%{
+      opacity: 0;
+    }
+    80%{
+      opacity:0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
 .row-one-div-img{
   width: 100%;
   overflow: hidden;
@@ -1282,6 +1354,18 @@ padding: 10px;
   justify-content: center;
   align-items: center;
   height: 100%;
+  animation: akak 5.5s ease-in-out alternate;
+}
+@keyframes akak{
+  0%{
+    opacity: 0;
+  }
+  80%{
+    opacity:0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 .drop-down span{
   /* border: 1px solid red; */
@@ -1405,6 +1489,9 @@ padding: 10px;
 /* ///////////stars////////// */
 .rating {
   display: inline-block;
+  /* border: 1px solid red; */
+  margin-left: 68px;
+ 
 }
 
 .rating input {
@@ -1433,6 +1520,7 @@ padding: 10px;
 
 
 .starss{
+
 flex-direction: column;
 padding-bottom: 7px;
 letter-spacing: 4px;
@@ -1440,7 +1528,51 @@ font-size: 11px;
 
 text-transform: uppercase;
 }
+.starss p{
+  /* border: 1px solid red; */
+}
+.stars-sec svg{
+  /* border: 1px solid red; */
+  transform: translateX(0px);
+  position: relative;
+  top: 7px;
+  opacity: 0;
+  animation:aso 2s ease-in-out alternate;
+}
+.stars-sec{
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  
 
+}
+.stars-sec span{
+  margin:0;
+  padding-left: 20px;
+ 
+ 
+  
+}
+@keyframes aso{
+  0%{
+    opacity: 1;
+    scale: 0.8;
+  }
+  10%{
+    scale: 1;
+    opacity: 1;
+  }
+  70%{
+    opacity: 1;
+    top: 7px;
+  }
+  100%{
+    opacity: 0;
+    top: -10px;
+  }
+}
 /* ///////////////////////////////////////////////media korchi////////////////////////////////////////////////// */
  @media (max-device-width: 480px) { 
   /* STYLES HERE */
@@ -1622,8 +1754,13 @@ text-transform: uppercase;
   padding: 20px;
 }
 
-
-  
+.rating{
+  margin-left: 0;
+}
+.stars-sec{
+  margin-left: 68px;
+  width: 85%;
+}  
 }
 
 @media  (min-device-width: 481px) and (max-device-width: 768px) { 

@@ -3,7 +3,7 @@ import React from 'react'
 function RwoZero(){
   return (
     <>
-   <div className='secc-card-box'>
+   <div className='secc-card-box twooo'>
     <a href='https://github.com/lynx616/Dino-game' target='_blank'>
         <div className='secc-card-one'>
         <div className='sec-img-one'>
