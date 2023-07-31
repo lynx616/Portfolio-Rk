@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function Navbar({homeShow, contactShow, workShow}){
+function Navbar({homeShow, contactShow, workShow, aboutShow}){
 
 
     const [burgerClick, setburgerClick] = useState(false);
@@ -22,7 +22,7 @@ function Navbar({homeShow, contactShow, workShow}){
         <div>
             <ul id='big-nav' className={navOnOff}>
                 <li tabIndex={1} role='button' onClick={homeShow}>Home</li>
-                <li tabIndex={1} role='button'>About</li>
+                <li tabIndex={1} role='button' onClick={aboutShow}>About</li>
                 <li tabIndex={1} role='button' onClick={workShow}>Works</li>
                 <li tabIndex={1} role='button' onClick={contactShow}>Contact</li>
             </ul>
