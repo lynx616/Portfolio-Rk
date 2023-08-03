@@ -633,7 +633,20 @@ left: 8px;
     min-width: 475px;
     border-radius: 15px;
     background-color: white;
+    animation: asb 6s ease-in-out alternate;
     
+}
+@keyframes asb {
+  0%{
+    opacity: 0;
+
+  }
+  75%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 .third-row-second-box{
   
@@ -644,8 +657,19 @@ left: 8px;
     height: 210px;
     border-radius: 15px;
     background-color: white;
-    
+    animation: asbb 6s ease-in-out alternate;
 }
+@keyframes asbb{
+  0%{
+    opacity: 0;
+  }
+  88%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+} 
 .third-row-second-box span{
   position: relative;
   top: 4px;
@@ -1797,8 +1821,8 @@ text-transform: uppercase;
   font-size: .85rem;
     margin-bottom: 20px;
     opacity: 65%;
-    padding-left:12%;
-    padding-right: 12%;
+    padding-left:10%;
+    padding-right: 10%;
     
 }
 .about{
@@ -2023,6 +2047,18 @@ background-color: rgb(23, 123, 230);
   animation: dekhooo .5s ease-in-out;
 }
 /* ///////////////////////////////////////////////media korchi////////////////////////////////////////////////// */
+@media (max-device-width:370px) {
+  .clg-name{
+    font-size: 0.48rem !important;
+  }
+  .clg-stream{
+    font-size: 0.45rem !important;
+  }
+  .yearr{
+    font-size: 0.4rem !important;
+    top: 8px;
+  }
+}
  @media (max-device-width: 480px) { 
   /* STYLES HERE */
   /* .nav-box{
@@ -2209,7 +2245,73 @@ background-color: rgb(23, 123, 230);
 .stars-sec{
   margin-left: 68px;
   width: 85%;
+}
+.about-main{
+  padding: 20px;
 }  
+.about-left{
+  width: 100%;
+}
+.about-card{
+  flex-direction: column;
+ max-height: none;
+  height: auto;
+}
+.about-card-img{
+
+border-radius: 50%;
+width: 210px;
+min-height: 210px;
+
+}
+.contact-mail p{
+  /* text-align: center; */
+  padding: 2px;
+  font-size: .7rem;
+
+}
+.about-right{
+  width: 100%;
+}
+.about{
+  height: 100%;
+  max-height: 200px;
+  padding-top: 0;
+  padding-left: 18px;
+}
+.about-card-txt h1{
+  font-size: 1.7rem;
+}
+.clg-name{
+  font-size: 0.6rem;
+}
+.clg-stream{
+  font-size: 0.5rem;
+}
+.yearr{
+  font-size: 0.5rem;
+  top: 8px;
+}
+.about-div-one-heading h1{
+  font-size: 13px;
+}
+.html-skill-on{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  /* margin: 10px; */
+  
+}
+.skill-content{
+  justify-content: center;
+}
+.about-card-txt p{
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.soft-content{
+  justify-content: center;
+}
 }
 
 @media  (min-device-width: 481px) and (max-device-width: 768px) { 
@@ -2384,6 +2486,49 @@ background-color: rgb(23, 123, 230);
     max-width: 550px;
 }
 
+.about-left{
+  width: 100%;
+}
+.about-card{
+  flex-direction: column;
+}
+.about-card-img{
+
+
+width: 220px;
+
+}
+.contact-mail p{
+  text-align: center;
+  padding: 2px;
+
+}
+.about-right{
+  width: 100%;
+}
+.about{
+  /* min-height: 150px; */
+  height: auto;
+}
+.clg-name{
+  font-size: 12px;
+}
+.yearr{
+  font-size: 0.8rem;
+}
+.clg-stream{
+  font-size: 12px;
+}
+
+.html-skill-on{
+  margin-left: 10px;
+  margin-right: 10px;
+  /* margin: 10px; */
+  
+}
+.skill-content{
+  justify-content: center;
+}
 }
 
 @media screen and (min-device-width: 769px) and (max-device-width: 920px){ 
@@ -2476,6 +2621,26 @@ background-color: rgb(23, 123, 230);
 }
 .roww{
   width: 43%;
+}
+
+.about-left{
+  width: 100%;
+}
+.about-card{
+  flex-direction: row;
+}
+.about-card-img{
+
+width: 100%;
+min-width: 200px;
+margin-left: 20px;
+}
+.contact-mail p{
+  text-align: center;
+  padding: 5px;
+}
+.about-right{
+  width: 100%;
 }
 
 }

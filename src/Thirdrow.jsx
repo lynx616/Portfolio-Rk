@@ -6,15 +6,17 @@ function Thirdrow() {
     <div className='third-row-box'>
     <div className='third-row-first-box'>
     <div className='train-img'>
-            <img src='' alt='_blank'/>
+            <img src='aca.png' alt='_blank'/>
             </div>
-            <h4 className='card-h4'>WORK IS UNDER PROGRESS</h4>
-            <h3 className='card-h3'>Kaj cholche</h3>
+            <h4 className='card-h4'>ABOUT MY ACADEMICS</h4>
+            <h3 className='card-h3'>Academics</h3>
            
           
 
     </div>
     <div className='third-row-second-box'>
+    
+    <a href='https://drive.google.com/file/d/12wsLQFcG5oCwQwV9zlEdqud2C7iM15Iv/view?pli=1'  target="_blank">
     <div className='train-img'>
             <img src='cv.png' alt='_blank'/>
             </div>
@@ -38,8 +40,9 @@ function Thirdrow() {
             </h4>
             <h3 className='card-h3'>Curriculum Vitae</h3>
            
-              
+            </a>         
     </div>
+    
     </div>
     </>
   );

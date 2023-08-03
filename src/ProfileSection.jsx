@@ -9,7 +9,7 @@ function ProfileSection(){
     <div className='profile-text'>
           <h4>A WEB DEVELOPER</h4>  
           <h1>Rudra Karmakar</h1>
-          <p>I am a Web Developer based in kolkata.</p>
+          <p>I am a Web Developer based in Medinipur.</p>
     </div>
     </div>
   )
