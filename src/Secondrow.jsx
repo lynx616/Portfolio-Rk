@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 function Secondrow(){
   return (
     <div className='sec-row-box'>
@@ -13,11 +13,13 @@ function Secondrow(){
             <h3 className='card-h3'>Other Works</h3>
             </div>
             <div className='small-box'>
+            <Link exact to='/about'>
             <div className='train-img'>
             <img src='skills.png' alt='_blank'/>
             </div>
             <h4 className='card-h4'>MY SKILLSETS</h4>
             <h3 className='card-h3'>Skills</h3>
+            </Link>
             </div>
        
             <div className='big-box'>

@@ -2,6 +2,7 @@ import React from 'react'
 import AboutProfile from './AboutProfile';
 import CardOneAbout from './CardOneAbout';
 import Skills from './Skills';
+
 function About ()  {
   return (
     <>
@@ -12,8 +13,11 @@ function About ()  {
               
             </div>
             <div className='about-right'>
+            
+           
                 <CardOneAbout/>
                 <Skills/>
+         
             </div>
         </div>
     </div>

@@ -1660,6 +1660,8 @@ text-transform: uppercase;
   align-items: center;
   flex-direction: column; 
   margin-bottom: 15px;
+  animation: tumiasbebol 2s ease-in-out alternate;
+  
 }
 .about-div-one button{
   height: 30px ;
@@ -1778,6 +1780,15 @@ text-transform: uppercase;
   
   text-align: center;
   padding: 10px;
+  animation: tumiasbebole 1s ease-in-out alternate;
+}
+@keyframes tumiasbebole{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 .about-card-img{
   /* border: 1px solid red; */
@@ -1842,11 +1853,34 @@ text-transform: uppercase;
   letter-spacing: .5px;
   flex-wrap: wrap;
   flex-direction: column;
-  animation: none;
+  animation: tumiasbebo 3s ease-in-out alternate;
+}
+@keyframes tumiasbebo{
+  0%{
+    opacity: 0;
+  }
+  66%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 .socialicnz{
-  animation: none;
+  
   margin-top: 15px;
+  animation: tumiasbebol 2s ease-in-out alternate;
+}
+@keyframes tumiasbebol{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 .percentage{
   margin-left: 30px;
@@ -1914,6 +1948,7 @@ text-transform: uppercase;
   background-color: white;
   border-radius: 20px;
   padding-bottom: 15px;
+  animation: tumiasbebo 3s ease-in-out alternate;
 }
 .skill-content{
   /* border: 1px solid red; */
@@ -2049,7 +2084,7 @@ background-color: rgb(23, 123, 230);
 /* ///////////////////////////////////////////////media korchi////////////////////////////////////////////////// */
 @media (max-device-width:370px) {
   .clg-name{
-    font-size: 0.48rem !important;
+    font-size: 0.5rem !important;
   }
   .clg-stream{
     font-size: 0.45rem !important;
@@ -2057,6 +2092,15 @@ background-color: rgb(23, 123, 230);
   .yearr{
     font-size: 0.4rem !important;
     top: 8px;
+  }
+  .about-div-one-heading h1{
+    font-size: .6rem !important;
+  }
+  .percentage{
+    height: 3px !important;
+  }
+  .percentage-cld{
+    height: 3px !important;
   }
 }
  @media (max-device-width: 480px) { 
@@ -2294,6 +2338,8 @@ min-height: 210px;
 }
 .about-div-one-heading h1{
   font-size: 13px;
+  position: relative;
+    left: 4.5px;
 }
 .html-skill-on{
   margin-left: 10px;
@@ -2311,6 +2357,12 @@ min-height: 210px;
 }
 .soft-content{
   justify-content: center;
+}
+.percentage{
+  height: 4px;
+}
+.percentage-cld{
+  height: 4px;
 }
 }
 
@@ -2386,7 +2438,7 @@ min-height: 210px;
     height: 210px;
   }
   .big-box h3{
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .big-box h4{
     letter-spacing: 2px;
@@ -2571,7 +2623,7 @@ width: 220px;
     height: 210px;
   }
   .big-box h3{
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .big-box h4{
     letter-spacing: 2px;
@@ -2635,12 +2687,19 @@ width: 100%;
 min-width: 200px;
 margin-left: 20px;
 }
+.contact-mail{
+  min-height: 100px;
+  height: auto;
+}
 .contact-mail p{
   text-align: center;
   padding: 5px;
 }
 .about-right{
   width: 100%;
+}
+.socialicnz{
+  gap: 25px;
 }
 
 }
@@ -2697,6 +2756,9 @@ margin-left: 20px;
 }
 .roww{
   width: 43%;
+}
+.socialicnz{
+  gap: 0;
 }
 
 }

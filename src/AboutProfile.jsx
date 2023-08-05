@@ -10,7 +10,7 @@ function AboutProfile ()  {
         </div>
         <div className='about-card-txt'>
             <h1>Rudra Karmakar</h1>
-            <p>I am a <strong>React developer</strong> and a <strong>MERN</strong> stack enthusiast pursuing B.Tech in <strong>Information Technology</strong> from Jalpaiguri Government Engineering College. Seeking an organization to improve my skills and contribute my Acadamic Learning. Looking forward to discussing how I align with your organization's goals.</p>
+            <p>I am a <strong>React</strong> developer and a <strong>MERN</strong> stack enthusiast pursuing B.Tech in <strong>Information Technology</strong> from Jalpaiguri Government Engineering College. Seeking an Organization to improve my skills and contribute my Acadamic Learning. Looking forward to discussing how I align with your Organization's goals.</p>
         </div>
     </div>
     <div class="contact-buttons socialicnz">

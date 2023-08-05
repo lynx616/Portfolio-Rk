@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Traintext (){
  
@@ -11,20 +12,22 @@ function Traintext (){
             </div>
             <div  className='train-boxss'>
         <div tabIndex='1' className='train-first-box'>
-        <a href='#work-id'>
+        <Link exact to='/about'>
         <div className='train-img'>
             <img src='signature.png' alt='_blank'/>
             </div>
             <h4>MORE ABOUT ME</h4>
             <h3>Credentials</h3>
-            </a>
+            </Link>
         </div>
         <div tabIndex='1' className='train-first-box'>
+        <Link exact to='/work'>
         <div className='train-img'>
         <img src='desktop.png' alt='_blank'/>
         </div>
             <h4>SHOWCASE</h4>
             <h3>Projects</h3>
+            </Link>
         </div>
         </div>
     </div>

@@ -1,16 +1,18 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 function Thirdrow() {
   return (
     <>
     <div className='third-row-box'>
     <div className='third-row-first-box'>
+    <Link exact to='/about'>
     <div className='train-img'>
+    
             <img src='aca.png' alt='_blank'/>
             </div>
             <h4 className='card-h4'>ABOUT MY ACADEMICS</h4>
             <h3 className='card-h3'>Academics</h3>
-           
+            </Link>
           
 
     </div>
