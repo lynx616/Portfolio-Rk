@@ -3,7 +3,13 @@ import React from 'react'
 function Error(){
   return (
     <>
-    <h1>Page not found!</h1>
+    <div className='contact-box'>
+    <div className='contact-main'>
+    <div className='error-msg'>
+    <p>☣ Page not found! ☣</p>
+    </div>
+    </div>
+    </div>
     </>
   );
 }

@@ -49,7 +49,7 @@ function App(){
       <Route exact path='/about' Component={About}/>
       <Route exact path='/work' Component={Work}/>
       <Route exact path='/contact' Component={Contact}/>
-      <Route Component={Error}/>
+      <Route path='*' Component={Error}/>
       {/* <Route exact path='/about/skills' Component={Skills}/>
       <Route exact path='/about/academics' Component={CardOneAbout}/> */}
  
