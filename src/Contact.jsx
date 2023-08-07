@@ -11,7 +11,7 @@ function Contact(){
         <div className='contact-main'>
         <div className='feedback-msg'>
         <p>Thanks for your feedback!</p>
-        <Link exact to='/'><button className='button-name'>Home
+        <Link to='/'><button className='button-name'>Home
         
         </button></Link>
         </div>
