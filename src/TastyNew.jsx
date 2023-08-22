@@ -1,6 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -22,10 +23,10 @@ function TastyNew() {
       
         keyboard={true}
         loop={true}
-//          autoplay={{
-//    "delay": 3000,
-//   "disableOnInteraction": false
-//  }}
+         autoplay={{
+   "delay": 3000,
+  "disableOnInteraction": false
+ }}
 
 
         className="mySwiper"
