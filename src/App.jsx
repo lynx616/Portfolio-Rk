@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react';
 import Navbar from './Navbar';
 import Home from './Home';
 import Contact from './Contact';
@@ -45,6 +45,7 @@ function App(){
   {/* age router sikhte hoto > < */}
     <Navbar/>
     <Routes>
+    
       <Route exact path='/' Component={Home}/>
       <Route exact path='/about' Component={About}/>
       <Route exact path='/work' Component={Work}/>

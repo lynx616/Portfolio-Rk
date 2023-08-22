@@ -5,14 +5,16 @@ function Secondrow(){
     <div className='sec-row-box'>
         <div className='sec-div-one'>
         
-            <div className='small-box'>
+            <div data-aos="fade-up"
+    data-aos-duration="1000" className='small-box'>
             <div className='train-img'>
             <img src='p-e.png' alt='_blank'/>
             </div>
             <h4 className='card-h4'>WORKS I USED TO DO</h4>
             <h3 className='card-h3'>Other Works</h3>
             </div>
-            <div className='small-box'>
+            <div data-aos="fade-up"
+    data-aos-duration="1000" className='small-box'>
             <Link exact to='/about'>
             <div className='train-img'>
             <img src='skills.png' alt='_blank'/>
@@ -22,7 +24,8 @@ function Secondrow(){
             </Link>
             </div>
        
-            <div className='big-box'>
+            <div data-aos="fade-up"
+    data-aos-duration="1000" className='big-box'>
             <div class="social-buttons">
             
   <a href="https://github.com/lynx616" target='_blank' class="social-button github">

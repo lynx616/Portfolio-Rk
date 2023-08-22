@@ -5,7 +5,7 @@ function RowOneSec(){
     <>
     <div className='roww work-hidden-two'>
     <a href='https://github.com/lynx616/Text-to-speech-converter' target='_blank'>
-    <div className='row-one-div'>
+    <div  className='row-one-div'>
         <div className='row-one-div-img'>
           <img src='tp.png' alt='_orbit'/>
         </div>

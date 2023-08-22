@@ -9,7 +9,8 @@ function CardOneAbout (){
     const btnUpdown= moredata ? 'button-svg' : 'button-svg-two';
   return (
     <>
-    <div className='about-div-one'>
+    <div data-aos="fade-up"
+            data-aos-duration="1000" className='about-div-one'>
         <div className='about-div-one-heading'>
             <h1>| Education |</h1>
         </div>

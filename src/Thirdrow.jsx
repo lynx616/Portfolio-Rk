@@ -4,7 +4,8 @@ function Thirdrow() {
   return (
     <>
     <div className='third-row-box'>
-    <div className='third-row-first-box'>
+    <div data-aos="fade-up"
+    data-aos-duration="1000" className='third-row-first-box'>
     <Link exact to='/about'>
     <div className='train-img'>
     
@@ -16,7 +17,8 @@ function Thirdrow() {
           
 
     </div>
-    <div className='third-row-second-box'>
+    <div data-aos="fade-up"
+    data-aos-duration="1000" className='third-row-second-box'>
     
     <a href='https://drive.google.com/file/d/12wsLQFcG5oCwQwV9zlEdqud2C7iM15Iv/view?pli=1'  target="_blank">
     <div className='train-img'>

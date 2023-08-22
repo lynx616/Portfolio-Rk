@@ -1,10 +1,11 @@
 import React from 'react'
 
 function ProfileSection(){
+ 
   return (
     <div tabIndex='1' className='profile-box'>
     <div className='profile-img-box'>
-        <img src='final1.png' alt='_blank'/>
+        <img src='final1.jpg' alt='_blank'/>
     </div>
     <div className='profile-text'>
           <h4>A WEB DEVELOPER</h4>  

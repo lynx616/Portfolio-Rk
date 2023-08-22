@@ -23,7 +23,8 @@ function Skills() {
 
   return (
     <>
-    <div className='skills-main'>
+    <div data-aos="fade-up"
+            data-aos-duration="1000" className='skills-main'>
         <div className='about-div-one-heading'>
                 <h1>| Skills {moredata && <span>& Softwares</span>} |</h1>
         </div>

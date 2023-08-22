@@ -20,7 +20,8 @@ function SecondCard ()  {
         </a>
 
         <a href='https://github.com/lynx616/Spomtify' target='_blank'>
-        <div className='secc-card-one'>
+        <div data-aos="fade-up"
+            data-aos-duration="1000" className='secc-card-one'>
         <div className='sec-img-one'>
         <img src='spomtify.png' alt='sec-img-one'/>
       </div>
