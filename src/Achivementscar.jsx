@@ -68,7 +68,7 @@ export default function App() {
           <div className="swiper-zoom-container">
           <div className='btm-car'>
             <div className='btm-car-img'>
-                <img src='P-cor.png' alt='_blank'/>
+                <img src='p-cor.png' alt='_blank'/>
             </div>
             <div className='btm-car-txt'>
                 <p> Photomathon 2021 </p>
