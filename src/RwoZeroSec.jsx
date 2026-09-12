@@ -4,7 +4,7 @@ function RwoZeroSec(){
   return (
     <>
    <div className='secc-card-box work-hidden-one'>
-    <a href='https://github.com/lynx616/shopping_UI' target='_blank'>
+    <a href='https://github.com/lynx616/shopping_UI' target='_blank' rel="noreferrer">
         <div data-aos="fade-up"
             data-aos-duration="1000" className='secc-card-one'>
         <div className='sec-img-one'>
@@ -20,7 +20,7 @@ function RwoZeroSec(){
         </div>
         </a>
 
-        <a href='https://github.com/lynx616/nike-login-page' target='_blank'>
+        <a href='https://github.com/lynx616/nike-login-page' target='_blank' rel="noreferrer">
         <div data-aos="fade-up"
             data-aos-duration="1000" className='secc-card-one'>
         <div className='sec-img-one'>

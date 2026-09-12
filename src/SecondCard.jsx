@@ -4,7 +4,7 @@ function SecondCard ()  {
   return (
     <>
     <div className='secc-card-box'>
-    <a href='https://github.com/lynx616/goodfellas-animod' target='_blank'>
+    <a href='https://github.com/lynx616/goodfellas-animod' target='_blank' rel="noreferrer">
         <div className='secc-card-one'>
         <div className='sec-img-one'>
         <img src='amimod.png' alt='sec-img-one'/>
@@ -19,7 +19,7 @@ function SecondCard ()  {
         </div>
         </a>
 
-        <a href='https://github.com/lynx616/Spomtify' target='_blank'>
+        <a href='https://github.com/lynx616/Spomtify' target='_blank' rel="noreferrer">
         <div data-aos="fade-up"
             data-aos-duration="1000" className='secc-card-one'>
         <div className='sec-img-one'>

@@ -42,7 +42,7 @@ export default function App() {
           <div className="swiper-zoom-container">
           <div className='btm-car'>
             <div className='btm-car-img'>
-                <img src='hackforbengal.jpg' alt='_blank'/>
+                <img src='hackforbengal.jpg' alt='Hack4bengal 2023 achievement screenshot'/>
             </div>
             <div className='btm-car-txt'>
                 <p> Hack4bengal 2023 </p>
@@ -55,7 +55,7 @@ export default function App() {
           <div className="swiper-zoom-container">
           <div className='btm-car'>
             <div className='btm-car-img'>
-                <img src='jwoc.jpg' alt='_blank'/>
+                <img src='jwoc.jpg' alt='JWOC 2022 achievement screenshot'/>
             </div>
             <div className='btm-car-txt'>
                 <p> jwoc 2022 </p>
@@ -68,7 +68,7 @@ export default function App() {
           <div className="swiper-zoom-container">
           <div className='btm-car'>
             <div className='btm-car-img'>
-                <img src='p-cor.png' alt='_blank'/>
+                <img src='p-cor.png' alt='Photomathon 2021 achievement screenshot'/>
             </div>
             <div className='btm-car-txt'>
                 <p> Photomathon 2021 </p>
@@ -81,7 +81,7 @@ export default function App() {
           <div className="swiper-zoom-container">
           <div className='btm-car'>
             <div className='btm-car-img'>
-                <img src='video.jpg' alt='_blank'/>
+                <img src='video.jpg' alt='EDiquest 2021 achievement screenshot'/>
             </div>
             <div className='btm-car-txt'>
                 <p> EDiquest 2021 </p>

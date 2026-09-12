@@ -5,10 +5,10 @@ function RowOne () {
     <>
      <div data-aos="fade-up"
             data-aos-duration="1000" className='roww'>
-    <a href='https://github.com/lynx616/ToDo-List' target='_blank'>
+    <a href='https://github.com/lynx616/ToDo-List' target='_blank' rel="noreferrer">
     <div  className='row-one-div'>
         <div className='row-one-div-img'>
-          <img src='to do.png' alt='_orbit'/>
+          <img src='to do.png' alt='To Do List application screenshot'/>
         </div>
         <div className='row-one-div-txt'>
         <h4>ADD OR REMOVE ITEM</h4>

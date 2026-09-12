@@ -4,11 +4,11 @@ function RwoZero(){
   return (
     <>
    <div className='secc-card-box twooo'>
-    <a href='https://github.com/lynx616/Dino-game' target='_blank'>
+    <a href='https://github.com/lynx616/Dino-game' target='_blank' rel="noreferrer">
         <div data-aos="fade-up"
             data-aos-duration="1000" className='secc-card-one'>
         <div className='sec-img-one'>
-        <img src='dino1.png' alt='sec-img-one'/>
+        <img src='dino1.png' alt='Dino game screenshot'/>
       </div>
       <div className='sec-title-one'>
         <h4>JAVASCRIPT GAME</h4>
@@ -20,7 +20,7 @@ function RwoZero(){
         </div>
         </a>
 
-        <a href='https://github.com/lynx616/Functional-Music-player-using-js' target='_blank'>
+        <a href='https://github.com/lynx616/Functional-Music-player-using-js' target='_blank' rel="noreferrer">
         <div data-aos="fade-up"
             data-aos-duration="1000" className='secc-card-one'>
         <div className='sec-img-one'>

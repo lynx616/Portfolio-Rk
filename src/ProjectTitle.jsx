@@ -6,7 +6,7 @@ function ProjectTitle(){
     <div className='project-title'>
     <h1>| All Projects |</h1>
     </div>
-    <a href='https://github.com/lynx616/Movhead' target='_blank'>
+    <a href='https://github.com/lynx616/Movhead' target='_blank' rel="noreferrer">
     <div className='project-card'>
       <div className='project-img-one'>
         <img src='movhead.png' alt='proj-img-one'/>

@@ -37,7 +37,7 @@ function TastyNew() {
         <div data-aos="fade-up"
             data-aos-duration="1000" className='person'>
         <div className='person-img rakesh'>
-          <img src='brk.jpeg' alt='_blank'/>
+          <img src='brk.jpeg' alt='Rakesh Karmakar testimonial'/>
         </div>
         <span className='svg-box'>
           <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" height="25px" width="25px" version="1.1" id="Capa_1" viewBox="0 0 32 32" space="preserve">
@@ -64,7 +64,7 @@ function TastyNew() {
         <SwiperSlide>
         <div className='person'>
         <div className='person-img mukesh'>
-          <img src='mukesh.jpg' alt='_blank'/>
+          <img src='mukesh.jpg' alt='Mukesh Sinha testimonial'/>
         </div>
         <span className='svg-box'>
           <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" height="25px" width="25px" version="1.1" id="Capa_1" viewBox="0 0 32 32" space="preserve">
@@ -92,7 +92,7 @@ function TastyNew() {
         <SwiperSlide>
         <div className='person'>
         <div className='person-img somo'>
-          <img src='somo.jpeg' alt='_blank'/>
+          <img src='somo.jpeg' alt='Somosree Roychowdhury testimonial'/>
         </div>
         <span className='svg-box'>
           <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" height="25px" width="25px" version="1.1" id="Capa_1" viewBox="0 0 32 32" space="preserve">
@@ -119,7 +119,7 @@ function TastyNew() {
         <SwiperSlide>
         <div className='person'>
         <div className='person-img'>
-          <img src='ad.jpg' alt='_blank'/>
+          <img src='ad.jpg' alt='Adrita Das testimonial'/>
         </div>
         <span className='svg-box'>
           <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" height="25px" width="25px" version="1.1" id="Capa_1" viewBox="0 0 32 32" space="preserve">
@@ -147,7 +147,7 @@ function TastyNew() {
         <SwiperSlide>
         <div className='person'>
         <div className='person-img debo'>
-          <img src='dc.jpeg' alt='_blank'/>
+          <img src='dc.jpeg' alt='Debapriya Chandra testimonial'/>
         </div>
         <span className='svg-box'>
           <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" height="25px" width="25px" version="1.1" id="Capa_1" viewBox="0 0 32 32" space="preserve">
@@ -175,7 +175,7 @@ function TastyNew() {
         <SwiperSlide>
         <div className='person'>
         <div className='person-img shm'>
-          <img src='shm.jpeg' alt='_blank'/>
+          <img src='shm.jpeg' alt='Soham Chowdhury testimonial'/>
         </div>
         <span className='svg-box'>
           <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" height="25px" width="25px" version="1.1" id="Capa_1" viewBox="0 0 32 32" space="preserve">

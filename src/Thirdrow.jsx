@@ -9,7 +9,7 @@ function Thirdrow() {
     <Link exact to='/about'>
     <div className='train-img'>
     
-            <img src='aca.png' alt='_blank'/>
+            <img src='aca.png' alt='Academic certificate'/>
             </div>
             <h4 className='card-h4'>ABOUT MY ACADEMICS</h4>
             <h3 className='card-h3'>Academics</h3>
@@ -20,9 +20,9 @@ function Thirdrow() {
     <div data-aos="fade-up"
     data-aos-duration="1000" className='third-row-second-box'>
     
-    <a href='https://drive.google.com/file/d/12wsLQFcG5oCwQwV9zlEdqud2C7iM15Iv/view?pli=1'  target="_blank">
+    <a href='https://drive.google.com/file/d/12wsLQFcG5oCwQwV9zlEdqud2C7iM15Iv/view?pli=1'  target="_blank" rel="noreferrer">
     <div className='train-img'>
-            <img src='cv.png' alt='_blank'/>
+            <img src='cv.png' alt='Curriculum Vitae document'/>
             </div>
             <h4 className='card-h4'>TO DOWNLOAD CV<span>  <svg
   width="20"

@@ -4,10 +4,10 @@ function RowOneSec(){
   return (
     <>
     <div className='roww work-hidden-two'>
-    <a href='https://github.com/lynx616/Text-to-speech-converter' target='_blank'>
+    <a href='https://github.com/lynx616/Text-to-speech-converter' target='_blank' rel="noreferrer">
     <div  className='row-one-div'>
         <div className='row-one-div-img'>
-          <img src='tp.png' alt='_orbit'/>
+          <img src='tp.png' alt='Text to Speech converter application screenshot'/>
         </div>
         <div className='row-one-div-txt'>
         <h4>SPEECH CONVERTER</h4>

@@ -5,11 +5,11 @@ function RowTwo() {
     <>
        
         <div className='title-box title-two'>
-    <a href='https://github.com/lynx616/9bestseries' target='_blank'>
+    <a href='https://github.com/lynx616/9bestseries' target='_blank' rel="noreferrer">
     <div data-aos="fade-up"
             data-aos-duration="1000" className='project-card'>
       <div className='project-img-two'>
-        <img src='Top NT.png' alt='proj-img-one'/>
+        <img src='Top NT.png' alt='Top Netflix Series application screenshot'/>
       </div>
       <div className='project-title-one'>
         <h4>RESPONSIVE DESIGN</h4>
@@ -18,7 +18,7 @@ function RowTwo() {
       </div>
     </div>
     </a>
-    <a href='https://github.com/lynx616' target='_blank' >
+    <a href='https://github.com/lynx616' target='_blank' rel="noreferrer" >
     <div data-aos="fade-up"
             data-aos-duration="1000" className='cta'>
     <span class="hover-underline-animation">github profile</span>

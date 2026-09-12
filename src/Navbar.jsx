@@ -29,7 +29,7 @@ function Navbar({homeShow, contactShow, workShow, aboutShow}){
             </ul>
         </div>
         <div>
-        <a href='https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fm%2Fin%2Frudra-karmakar-b31a2b232&trk=login_reg_redirect' target='_blank'>
+        <a href='https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fm%2Fin%2Frudra-karmakar-b31a2b232&trk=login_reg_redirect' target='_blank' rel="noreferrer">
             <button className="btn">Know More!</button>
             </a>
         </div>

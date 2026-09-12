@@ -53,11 +53,11 @@ function RowTwoSec(){
   return (
     <>
       <div className='title-box work-hidden'>
-    <a href='https://github.com/lynx616/Portfolio-Rk' target='_blank'>
+    <a href='https://github.com/lynx616/Portfolio-Rk' target='_blank' rel="noreferrer">
     <div data-aos="fade-up"
             data-aos-duration="1000" className='project-card'>
       <div className='project-img-two'>
-        <img src='this-site1.png' alt='proj-img-one'/>
+        <img src='this-site1.png' alt='Rudra Portfolio application screenshot'/>
       </div>
       <div className='project-title-one'>
         <h4>PORTFOLIO DESIGN</h4>
