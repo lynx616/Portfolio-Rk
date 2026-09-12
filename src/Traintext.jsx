@@ -9,9 +9,10 @@ function Traintext (){
             data-aos="fade-up"
             data-aos-duration="1000"
              className='train-text'>
-            <div className="marquee-text">
+            {/* eslint-disable-next-line jsx-a11y/no-distracting-elements */}
+            <marquee>
             <p >Welcome to the Official portfolio of Rudra Karmakar, This platform is more than just a showcase of my projects, it's a reflection of my passion, dedication, and growth as a professional.</p>
-            </div>
+            </marquee>
             </div>
             <div  className='train-boxss'>
         <div data-aos="fade-up"
