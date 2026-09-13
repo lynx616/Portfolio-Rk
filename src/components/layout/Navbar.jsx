@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
+import ThemeToggle from '../ui/ThemeToggle';
 
 function Navbar({homeShow, contactShow, workShow, aboutShow}){
 
@@ -19,7 +20,7 @@ function Navbar({homeShow, contactShow, workShow, aboutShow}){
 
   return (
     <div className='nav-box'>
-        <div><h2>Rudra's Portfolio</h2><h3>-Rp-</h3></div>
+        <div className='brand-heading'><h2>Rudra's Portfolio</h2><h3>-Rp-</h3><ThemeToggle/></div>
         <div>
             <ul id='big-nav' className={navOnOff}>
                 <Link exact to='/'><li tabIndex={1} role='button' onClick={homeShow}>Home</li></Link>

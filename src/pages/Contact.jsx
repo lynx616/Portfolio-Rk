@@ -83,7 +83,7 @@ function Contact(){
                             d="M3.00977 5.83789C3.00977 5.28561 3.45748 4.83789 4.00977 4.83789H20C20.5523 4.83789 21 5.28561 21 5.83789V17.1621C21 18.2667 20.1046 19.1621 19 19.1621H5C3.89543 19.1621 3 18.2667 3 17.1621V6.16211C3 6.11449 3.00333 6.06765 3.00977 6.0218V5.83789ZM5 8.06165V17.1621H19V8.06199L14.1215 12.9405C12.9499 14.1121 11.0504 14.1121 9.87885 12.9405L5 8.06165ZM6.57232 6.80554H17.428L12.7073 11.5263C12.3168 11.9168 11.6836 11.9168 11.2931 11.5263L6.57232 6.80554Z"
                             fill="currentColor"
                         />
-                        </svg></span>: rk2487@it.jgec.ac.in</p>            
+                        </svg></span>: rudrakarmakar28022002@gmail.com</p>
           </div>
           <div data-aos="fade-up"
             data-aos-duration="1000" className='contact-address'>
@@ -92,7 +92,7 @@ function Contact(){
                 <svg xmlns="http://www.w3.org/2000/svg" width="24"
                         height="24" viewBox="0 0 24 24"><path d="M18,4.48a8.45,8.45,0,0,0-12,12l5.27,5.28a1,1,0,0,0,1.42,0L18,16.43A8.45,8.45,0,0,0,18,4.48ZM16.57,15,12,19.59,7.43,15a6.46,6.46,0,1,1,9.14,0ZM9,7.41a4.32,4.32,0,0,0,0,6.1,4.31,4.31,0,0,0,7.36-3,4.24,4.24,0,0,0-1.26-3.05A4.3,4.3,0,0,0,9,7.41Zm4.69,4.68a2.33,2.33,0,1,1,.67-1.63A2.33,2.33,0,0,1,13.64,12.09Z"/></svg>
                 </span>
-                   : Hostel No.3, Jalpaiguri Government Engineering College(autonomous), Jalpaiguri, Westbengal, Pin-735102.(Current)
+                   : Newtown , Kolkata, Westbengal, Pin-700157.(Current)
             </p>
             <p>
                 <span>
@@ -129,7 +129,7 @@ function Contact(){
           </g>
           </svg>
             </a>
-            <a href="https://instagram.com/_rxz_10_?igshid=MzNlNGNkZWQ4Mg==" target='_blank' rel="noreferrer" class="social-button instagram">
+            <a href="https://www.instagram.com/_rudra.xz" target='_blank' rel="noreferrer" class="social-button instagram">
               <svg width="800px" height="800px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
               <g id="Page-1" stroke="none" stroke-width="1">
                   <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)">

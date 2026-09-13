@@ -20,7 +20,7 @@ function Thirdrow() {
     <div data-aos="fade-up"
     data-aos-duration="1000" className='third-row-second-box'>
     
-    <a href='https://drive.google.com/file/d/12wsLQFcG5oCwQwV9zlEdqud2C7iM15Iv/view?pli=1'  target="_blank" rel="noreferrer">
+    <a href='/Rudra_karmakar_resume_frontend_ai.pdf' download='Rudra_karmakar_resume_frontend_ai.pdf'>
     <div className='train-img'>
             <img src='cv.png' alt='Curriculum Vitae document'/>
             </div>

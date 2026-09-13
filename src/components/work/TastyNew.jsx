@@ -118,34 +118,6 @@ function TastyNew() {
         </SwiperSlide>
         <SwiperSlide>
         <div className='person'>
-        <div className='person-img'>
-          <img src='ad.jpg' alt='Adrita Das testimonial'/>
-        </div>
-        <span className='svg-box'>
-          <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" height="25px" width="25px" version="1.1" id="Capa_1" viewBox="0 0 32 32" space="preserve">
-<g>
-	<g id="right_x5F_quote">
-		<g>
-			<path d="M0,4v12h8c0,4.41-3.586,8-8,8v4c6.617,0,12-5.383,12-12V4H0z"/>
-			<path d="M20,4v12h8c0,4.41-3.586,8-8,8v4c6.617,0,12-5.383,12-12V4H20z"/>
-		</g>
-	</g>
-</g>
-</svg>
-          </span>
-         <div className='person-txt'>
-         <h2>Testimonals</h2>
-          <p>Rudra's dedication to front-end development is undeniable. His designs are seamless, delivering visually stunning user experiences.</p>
-          <h4>ADRITA DAS
-          <br/>
-          <span> Photographer</span></h4>
-         
-         </div>
-
-        </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className='person'>
         <div className='person-img debo'>
           <img src='dc.jpeg' alt='Debapriya Chandra testimonial'/>
         </div>

@@ -52,7 +52,7 @@ function Secondrow(){
 </g>
 </svg>
   </a>
-  <a href="https://instagram.com/_rxz_10_?igshid=MzNlNGNkZWQ4Mg==" target='_blank' rel="noreferrer" class="social-button instagram">
+  <a href="https://www.instagram.com/_rudra.xz" target='_blank' rel="noreferrer" class="social-button instagram">
     <svg width="800px" height="800px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
     <g id="Page-1" stroke="none" stroke-width="1">
         <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)">

@@ -3540,3 +3540,174 @@ margin-left: 20px;
   font-size: 1rem;
   color: #333;
 }
+
+.brand-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  color: inherit;
+  background: transparent;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  background-color: white;
+  transform: translateY(-2px);
+}
+
+body[data-theme='dark'] {
+  background-color: #121212;
+  color: #f2f2f2;
+}
+
+body[data-theme='dark'] .nav-box,
+body[data-theme='dark'] .navOn {
+  background-color: rgba(18, 18, 18, 0.92);
+}
+
+body[data-theme='dark'] a {
+  color: #f2f2f2;
+}
+
+body[data-theme='dark'] .btn,
+body[data-theme='dark'] .profile-box,
+body[data-theme='dark'] .train-text,
+body[data-theme='dark'] .train-first-box,
+body[data-theme='dark'] .small-box,
+body[data-theme='dark'] .big-box,
+body[data-theme='dark'] .third-row-first-box,
+body[data-theme='dark'] .third-row-second-box,
+body[data-theme='dark'] .contact-form,
+body[data-theme='dark'] .contact-mail,
+body[data-theme='dark'] .contact-buttons,
+body[data-theme='dark'] .contact-address,
+body[data-theme='dark'] .project-title,
+body[data-theme='dark'] .project-card,
+body[data-theme='dark'] .proj-card-one-div,
+body[data-theme='dark'] .proj-text,
+body[data-theme='dark'] .secc-card-one,
+body[data-theme='dark'] .roww,
+body[data-theme='dark'] .cta,
+body[data-theme='dark'] .drop-down span,
+body[data-theme='dark'] .drop-up span,
+body[data-theme='dark'] .about-div-threee,
+body[data-theme='dark'] .about-div-one,
+body[data-theme='dark'] .about-card,
+body[data-theme='dark'] .about,
+body[data-theme='dark'] .skills-main,
+body[data-theme='dark'] .person {
+  background-color: #1e1e1e;
+  border-color: #3d3d3d;
+}
+
+body[data-theme='dark'] .btn,
+body[data-theme='dark'] .contact-button,
+body[data-theme='dark'] .about-div-one button,
+body[data-theme='dark'] .skills-main button {
+  color: #f2f2f2;
+  background-color: #1e1e1e;
+  border-color: #3d3d3d;
+}
+
+body[data-theme='dark'] .social-button {
+  background-color: #1e1e1e;
+}
+
+body[data-theme='dark'] .facebook:hover {
+  background-color: #3b5998;
+}
+
+body[data-theme='dark'] .github:hover {
+  background-color: #333;
+}
+
+body[data-theme='dark'] .linkedin:hover {
+  background-color: #0077b5;
+}
+
+body[data-theme='dark'] .instagram:hover {
+  background-color: #c13584;
+}
+
+body[data-theme='dark'] .contact-form input,
+body[data-theme='dark'] .contact-form textarea {
+  color: #f2f2f2;
+  background-color: transparent;
+  border-color: #3d3d3d;
+}
+
+body[data-theme='dark'] .contact-mail {
+  color: #f2f2f2;
+}
+
+body[data-theme='dark'] .contact-mail svg path {
+  fill: currentColor;
+}
+
+body[data-theme='dark'] .contact-address svg,
+body[data-theme='dark'] .clg-name svg,
+body[data-theme='dark'] .about-div-one button svg,
+body[data-theme='dark'] .skills-main button svg,
+body[data-theme='dark'] .cf-icon-svg,
+body[data-theme='dark'] .svg-box svg,
+body[data-theme='dark'] .cta svg {
+  color: #f2f2f2;
+  fill: currentColor;
+}
+
+body[data-theme='dark'] .contact-address svg path,
+body[data-theme='dark'] .clg-name svg path,
+body[data-theme='dark'] .about-div-one button svg path,
+body[data-theme='dark'] .skills-main button svg path,
+body[data-theme='dark'] .cf-icon-svg path,
+body[data-theme='dark'] .svg-box svg path,
+body[data-theme='dark'] .cta svg path {
+  fill: currentColor;
+}
+
+body[data-theme='dark'] img[src='signature.png'],
+body[data-theme='dark'] img[src='skills.png'] {
+  filter: invert(1);
+}
+
+body[data-theme='dark'] .person-txt h2,
+body[data-theme='dark'] .person-txt h4,
+body[data-theme='dark'] .hover-underline-animation,
+body[data-theme='dark'] .marquee-text {
+  color: #f2f2f2;
+}
+
+body[data-theme='dark'] .theme-toggle:hover,
+body[data-theme='dark'] .theme-toggle:focus-visible {
+  background-color: #2a2a2a;
+}
+
+body[data-theme='dark'] .theme-toggle {
+  border-color: #555;
+}
+
+body[data-theme='dark'] .hover-underline-animation:after {
+  background-color: #f2f2f2;
+}
+
+body[data-theme='dark'] .burgerOff span,
+body[data-theme='dark'] .burgerOn span {
+  background-color: #f2f2f2;
+}
+
+body[data-theme='dark'] .jelly {
+  --uib-color: #f2f2f2;
+}
