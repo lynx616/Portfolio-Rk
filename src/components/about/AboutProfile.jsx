@@ -10,7 +10,7 @@ function AboutProfile ()  {
         </div>
         <div className='about-card-txt'>
             <h1>Rudra Karmakar</h1>
-            <p>I am a <strong>React</strong> developer and a <strong>MERN</strong> stack enthusiast pursuing B.Tech in <strong>Information Technology</strong> from Jalpaiguri Government Engineering College. Seeking an Organization to improve my skills and contribute my Acadamic Learning. Looking forward to discussing how I align with your Organization's goals.</p>
+            <p>I’m a Frontend Engineer specialising in React.js, JavaScript, and modern web development, with 2+ years of experience building responsive, production-grade applications. Beyond frontend development, I enjoy working with Next.js, TypeScript, Python/FastAPI, cloud technologies, and AI/LLM integrations.</p>
         </div>
     </div>
     <div data-aos="fade-up"
