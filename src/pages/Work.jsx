@@ -1,15 +1,15 @@
 import React, {useState, useEffect} from 'react'
-import FirstCard from './FirstCard';
-import SecondCard from './SecondCard';
-import ProjectTitle from './ProjectTitle';
-import RowTwo from './RowTwo';
-import RowOne from './RowOne';
-import RwoZero from './RwoZero';
-import RwoZeroSec from './RwoZeroSec';
-import RowOneSec from './RowOneSec';
-import RowTwoSec from './RowTwoSec';
+import FirstCard from '../components/work/FirstCard';
+import SecondCard from '../components/work/SecondCard';
+import ProjectTitle from '../components/work/ProjectTitle';
+import RowTwo from '../components/work/RowTwo';
+import RowOne from '../components/work/RowOne';
+import RwoZero from '../components/work/RwoZero';
+import RwoZeroSec from '../components/work/RwoZeroSec';
+import RowOneSec from '../components/work/RowOneSec';
+import RowTwoSec from '../components/work/RowTwoSec';
 
-import TastyNew from './TastyNew';
+import TastyNew from '../components/work/TastyNew';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

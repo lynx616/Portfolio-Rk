@@ -1,8 +1,8 @@
 import React,{useEffect} from 'react'
-import ProfileSection from './ProfileSection';
-import Traintext from './Traintext';
-import Secondrow from './Secondrow';
-import Thirdrow from './Thirdrow';
+import ProfileSection from '../components/home/ProfileSection';
+import Traintext from '../components/home/Traintext';
+import Secondrow from '../components/home/Secondrow';
+import Thirdrow from '../components/home/Thirdrow';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

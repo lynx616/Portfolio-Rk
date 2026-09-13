@@ -1,13 +1,13 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Home from './Home';
-import Contact from './Contact';
-import Work  from './Work';
-import About from './About';
-import Footer from './Footer';
-import Error from './Error';
-// import Skills from './Skills';
-// import CardOneAbout from './CardOneAbout';
+import Navbar from './components/layout/Navbar';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import Work  from './pages/Work';
+import About from './pages/About';
+import Footer from './components/layout/Footer';
+import Error from './pages/Error';
+// import Skills from './components/about/Skills';
+// import CardOneAbout from './components/about/CardOneAbout';
 import { Route, Routes } from 'react-router-dom';
 function App(){
       // const [homeOnOff, sethomeOnOff] = useState(true);
