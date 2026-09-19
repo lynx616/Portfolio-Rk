@@ -19,7 +19,13 @@ const homeImages = [
 ];
 
 function Home() {
-  const [imagesLoaded, setImagesLoaded] = useState(false);
+  const [imagesLoaded, setImagesLoaded] = useState(() => {
+    try {
+      return sessionStorage.getItem('portfolio-home-loaded') === 'true';
+    } catch {
+      return false;
+    }
+  });
 
   useEffect(() => {
     let active = true;
@@ -31,6 +37,7 @@ function Home() {
       image.src = src;
     }))).then(() => {
       if (active) {
+        sessionStorage.setItem('portfolio-home-loaded', 'true');
         setImagesLoaded(true);
       }
     });
@@ -51,7 +58,7 @@ function Home() {
     return (
       <div className='home-loader' role='status' aria-live='polite' aria-label='Loading portfolio'>
         <div className='home-loader-content'>
-          <span className='home-loader-mark'>RK</span>
+          <span className='home-loader-mark'>Rp</span>
           <span className='home-loader-line'></span>
         </div>
       </div>

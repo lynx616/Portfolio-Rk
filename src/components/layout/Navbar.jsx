@@ -2,31 +2,28 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import ThemeToggle from '../ui/ThemeToggle';
 
-function Navbar({homeShow, contactShow, workShow, aboutShow}){
-
-
+function Navbar(){
     const [burgerClick, setburgerClick] = useState(false);
 
-        console.log("show");
-    function show(){
-            setburgerClick(!burgerClick);
-            console.log(burgerClick);
+    function toggleMenu() {
+        setburgerClick((current) => !current);
     }
-    
+
+    function closeMenu() {
+        setburgerClick(false);
+    }
+
     const navOnOff = burgerClick ? 'navOn':'navOff';
-
-    const checkedOnOff= burgerClick ? 'burgerOn':'burgerOff' ;
-    
-
+    const checkedOnOff = burgerClick ? 'burgerOn':'burgerOff';
   return (
     <div className='nav-box'>
         <div className='brand-heading'><h2>Rudra's Portfolio</h2><h3>-Rp-</h3><ThemeToggle/></div>
         <div>
-            <ul id='big-nav' className={navOnOff}>
-                <Link exact to='/'><li tabIndex={1} role='button' onClick={homeShow}>Home</li></Link>
-                <Link exact to='/about'><li tabIndex={1} role='button' onClick={aboutShow}>About</li></Link>
-                <Link exact to='/work'><li tabIndex={1} role='button' onClick={workShow}>Works</li></Link>
-                <Link exact to='/contact'><li tabIndex={1} role='button' onClick={contactShow}>Contact</li></Link>
+            <ul id='main-navigation' className={navOnOff}>
+                <Link exact to='/'><li tabIndex={1} role='button' onClick={closeMenu}>Home</li></Link>
+                <Link exact to='/about'><li tabIndex={1} role='button' onClick={closeMenu}>About</li></Link>
+                <Link exact to='/work'><li tabIndex={1} role='button' onClick={closeMenu}>Works</li></Link>
+                <Link exact to='/contact'><li tabIndex={1} role='button' onClick={closeMenu}>Contact</li></Link>
             </ul>
         </div>
         <div>
@@ -35,12 +32,18 @@ function Navbar({homeShow, contactShow, workShow, aboutShow}){
             </a>
         </div>
         <div className='burger-box'>
-        <label role='button' tabIndex={1} className={checkedOnOff} for="burger">
-  			<input onClick={show} type="button" id="burger"/>
-  					<span id='span-one'></span>
-  					<span id='span-two'></span>
- 					<span id='span-three'></span>
-                </label>
+        <button
+          type='button'
+          className={checkedOnOff}
+          aria-label={burgerClick ? 'Close navigation menu' : 'Open navigation menu'}
+          aria-controls='main-navigation'
+          aria-expanded={burgerClick}
+          onClick={toggleMenu}
+        >
+          <span id='span-one'></span>
+          <span id='span-two'></span>
+          <span id='span-three'></span>
+        </button>
         </div>
         
     </div>
