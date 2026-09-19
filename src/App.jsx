@@ -3,6 +3,7 @@ import Navbar from './components/layout/Navbar';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Work  from './pages/Work';
+import Photography from './pages/Photography';
 import About from './pages/About';
 import Footer from './components/layout/Footer';
 import Error from './pages/Error';
@@ -51,6 +52,7 @@ function App(){
       <Route exact path='/' Component={Home}/>
       <Route exact path='/about' Component={About}/>
       <Route exact path='/work' Component={Work}/>
+      <Route exact path='/photography' Component={Photography}/>
       <Route exact path='/contact' Component={Contact}/>
       <Route path='*' Component={Error}/>
       {/* <Route exact path='/about/skills' Component={Skills}/>

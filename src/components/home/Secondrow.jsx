@@ -7,11 +7,13 @@ function Secondrow(){
         
             <div data-aos="fade-up"
     data-aos-duration="1000" className='small-box'>
+            <Link exact to='/photography' aria-label='View photography work'>
             <div className='train-img'>
             <img src='p-e.png' alt='Project execution'/>
             </div>
             <h4 className='card-h4'>WORKS I USED TO DO</h4>
             <h3 className='card-h3'>Other Works</h3>
+            </Link>
             </div>
             <div data-aos="fade-up"
     data-aos-duration="1000" className='small-box'>
