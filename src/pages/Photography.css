@@ -145,7 +145,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  background: linear-gradient(135deg, #111111, #333333);
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -287,4 +287,8 @@ body[data-theme='dark'] .photography-back {
 
 body[data-theme='dark'] .photography-back:hover {
   background-color: #2a2a2a;
+}
+
+body[data-theme='dark'] .photography-social-tile {
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
 }
