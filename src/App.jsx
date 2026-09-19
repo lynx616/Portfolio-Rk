@@ -7,7 +7,6 @@ import Photography from './pages/Photography';
 import About from './pages/About';
 import Footer from './components/layout/Footer';
 import Error from './pages/Error';
-import PortfolioNotice from './components/ui/PortfolioNotice';
 // import Skills from './components/about/Skills';
 // import CardOneAbout from './components/about/CardOneAbout';
 import { Route, Routes } from 'react-router-dom';
@@ -45,7 +44,6 @@ function App(){
   return (
   <>
   {/* age router sikhte hoto > < */}
-    <PortfolioNotice/>
     <Navbar/>
     <Routes>
     
